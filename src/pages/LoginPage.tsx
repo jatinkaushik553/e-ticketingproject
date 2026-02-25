@@ -90,15 +90,15 @@ const LoginPage = () => {
                 <div className="space-y-3">
                   <div className="space-y-2">
                     <Label>Full Name</Label>
-                    <Input placeholder="John Doe" value={regName} onChange={e => setRegName(e.target.value)} />
+                    <Input placeholder="GIAN" value={regName} onChange={e => setRegName(e.target.value)} />
                   </div>
                   <div className="space-y-2">
                     <Label>Email</Label>
-                    <Input placeholder="user@email.com" value={regEmail} onChange={e => setRegEmail(e.target.value)} />
+                    <Input placeholder="gian@gmail.com" value={regEmail} onChange={e => setRegEmail(e.target.value)} />
                   </div>
                   <div className="space-y-2">
                     <Label>Phone</Label>
-                    <Input placeholder="9876543210" value={regPhone} onChange={e => setRegPhone(e.target.value)} />
+                    <Input placeholder="1234567880" value={regPhone} onChange={e => setRegPhone(e.target.value)} />
                   </div>
                   <div className="space-y-2">
                     <Label>Password</Label>
